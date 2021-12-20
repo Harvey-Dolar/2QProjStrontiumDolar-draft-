@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>CovInfo - Know More About COVID-19</title>
+
+        <meta charset="UTF-8">
+        <meta name="author" content="Harvey James D. Dolar">
+        <meta name="keywords" content="HTML, CSS, JavaScript, COVID-19">
+        <meta name="description" content="CovInfo aims to raise awareness of the rise of COVID-19">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="revised" content="06-11-2021">
+
+        <link rel="stylesheet" href="../css/indexStyle.css"> 
+
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Varela&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fruktur&display=swap" rel="stylesheet">
+
+        <!-- javascript -->
+        <script src="../js/entrance.js"></script>
+
+        <!-- favicon -->
+        <link rel="icon" type="image/png" href="../images/MyLogo.png">
+    </head>
+
+    <body>
+        <div class="topmost">
+            <div class="topmost-bar">
+                <div class="topmost-bar-tl">
+                    <img src="../images/MyLogo.png" class="logo-website">
+                    <div class="title-website">
+                        <a href="#">CovInfo - Know More About COVID-19</a>
+                    </div>
+                </div>
+                
+                <div class="search-bar">
+                    <form>
+                        <input type="text" placeholder="Search..">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="navigation-bar">
+                <a class="nav-bar-link" id="shown-page" href="index.html">HOME</a>
+                <a class="nav-bar-link" href="info.html">INFORMATION</a>
+                <a class="nav-bar-link" href="prevention.html">PREVENTION</a>
+                <a class="nav-bar-link" href="variants.html">VARIANTS</a>
+                <a class="nav-bar-link" href="statistics.html">STATISTICS</a>
+                <a class="nav-bar-link" href="effects.html">EFFECTS</a>
+            </div>
+        </div>
+
+        <main class="main-home">
+            <div class="main-header">
+                <div class="main-home-header"></div> 
+                <div class="main-title">
+                  <h6>Welcome to CovInfo! 
+                      <br>
+                     Explore this website to know more about COVID-19!</h6>
+                </div>
+            </div>
+
+            <div class="navigation-home entrance">
+                <h2 class="navigation-header">Navigation</h2>
+
+                <div class="navigation-area">
+                    <a href="info.html" class="navigation-link">
+                        <div class="navigation-img-holder">
+                            <img src="../images/info.jpg">
+                        </div>
+                        <p>COVID-19 Information</p>
+                    </a>
+
+                    <a href="prevention.html" class="navigation-link">
+                        <div class="navigation-img-holder">
+                            <img src="../images/prevention.jpg">
+                        </div>
+                        <p>COVID-19 Prevention</p>
+                    </a>
+
+                    <a href="variants.html" class="navigation-link">
+                        <div class="navigation-img-holder">
+                            <img src="../images/variants.jpg">
+                        </div>
+                        <p>COVID-19 Variants</p>
+                    </a>
+
+                    <a href="statistics.html" class="navigation-link">
+                        <div class="navigation-img-holder">
+                            <img src="../images/stat.jpg">
+                        </div>
+                        <p>COVID-19 Statistics</p>
+                    </a>
+
+                    <a href="effects.html" class="navigation-link">
+                        <div class="navigation-img-holder">
+                            <img src="../images/effects.jpg">
+                        </div>
+                        <p>COVID-19 Effects</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="info-home-reveal entrance">
+                <img src="../images/info.png" class="image-reveal float-right" id="info-image">
+                <h1 class="heading-reveal">COVID-19 Information</h1>
+                <p class="paragraph-reveal">Curious about COVID-19?<br>Come and learn more about COVID-19!</p>
+                <form action="info.html">
+                    <button class="button-reveal">Click here to learn more!</button>
+                </form>
+            </div>
+
+            <div class="prevention-and-variants-intro">
+                <div class="prevention entrance">
+                    <img src="../images/prevention-animate.png" class="extra-image float-right" id="prevention-image">
+                    <h1 class="extra-heading">COVID-19 Prevention</h1>
+                    <p class="extra-paragraph">Know the ways to prevent from getting infected by COVID-19!</p>
+                    <form action="prevention.html">
+                        <button class="extra-button">Click here to learn more!</button> 
+                    </form>
+                </div>
+
+                <div class="variants entrance">
+                    <img src="../images/variant.png" class="extra-image float-right" id="variant-image">
+                    <h1 class="extra-heading">COVID-19 Variants</h1>
+                    <p class="extra-paragraph">Learn more about the different variants of COVID-19!</p>
+                    <form action="variants.html">
+                        <button class="extra-button">Click here to see the variants!</button> 
+                    </form>
+                </div>
+            </div>
+
+            <div class="stat-and-effects-intro">
+                <div class="stat entrance">
+                    <img src="../images/stat.png" class="extra-image float-right" id="stat-image">
+                    <h1 class="extra-heading">COVID-19 Statistics</h1>
+                    <p class="extra-paragraph">Be aware of the number of cases, deaths, and recovered in your country and around the world!</p>
+                    <form action="statistics.html">
+                        <button class="extra-button">Click here for the latest statistics!</button> 
+                    </form>
+                </div>
+
+                <div class="effects entrance">
+                    <img src="../images/effect-animate.png" class="extra-image float-right" id="effect-image">
+                    <h1 class="extra-heading">COVID-19 Effects</h1>
+                    <p class="extra-paragraph">Be prepared of the different effects of COVID-19 in our society!</p>
+                    <form action="effects.html">
+                        <button class="extra-button">Click here to know the effects!</button> 
+                    </form>
+                </div>
+            </div>
+
+            <div class="pre-footer-wrapper">
+                <h1 class="home-header" id="pre-footer-header">Stay Strong and Don't Give Up!</h1>
+            </div>
+        </main>
+
+        <footer>
+            <div class="container">
+              <div class="row">
+                <div class="footer-col">
+                  <h4>About CovInfo</h4>
+                  <p>CovInfo is a website that provides information about COVID-19. 
+                    This can help people be aware of the pandemic around them. This 
+                    website aims to raise awareness of the rise of COVID-19.</p>
+                </div>
+                <div class="footer-col">
+                  <h4>Follow Me</h4>
+                  <div class="social-links">
+                    <a href="https://www.facebook.com/harveyjames.dukadolar" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/Kazuki_Yuto23" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/harveydolar/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UCQobv6JXrXECuOg4RypZa1g" target="_blank"><i class="fab fa-youtube"></i></a>
+                  </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Reference</h4>
+                    <ul>
+                      <p>Credits to the orignal owners of the images</p>
+                    </ul>
+                  </div>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <br>
+            <hr>
+            <div class="creator">
+                <p>© 2021. Created by Harvey James D. Dolar</p>
+            </div>
+        </footer>
+
+    </body>
+</html>

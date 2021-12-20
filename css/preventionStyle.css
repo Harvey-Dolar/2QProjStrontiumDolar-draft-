@@ -1,0 +1,33 @@
+.prevention-drop{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+.banner .content img{
+    width: 100%;
+    display: flex;
+    padding-bottom: 30px;
+}
+.banner .content li{
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+.video{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+.video iframe{
+    position: absolute;
+    width: 75%;
+    height: 75%;
+    left: 12.5%;
+    padding-top: 30px;
+}

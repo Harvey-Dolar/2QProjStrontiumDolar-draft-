@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+
+.info-proper{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+.info-drop{
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    min-height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.info-drop section{
+    width: 90%;
+    box-shadow: 0 5px 10px #3334;
+
+}
+.info-drop section details::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.info-drop section details summary{
+    padding: 15px;
+    background: #2196F3;
+    color: #fff;
+    border: 1px solid black;
+    position: relative;
+    list-style: none;
+    outline: none;
+    cursor: pointer;
+    font-size: calc(15px + 0.3vw);
+    text-transform: capitalize;
+    font-family: 'Roboto Mono', monospace;
+}
+.info-drop section details summary:hover{
+    background: #036fc7;
+}
+.info-drop section details p{
+    font-size: calc(20px + 0.26vw);
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+}
+.info-drop section details li{
+    font-size: calc(14px + 0.26vw);
+    font-family: 'Lato', sans-serif;
+}
+.info-drop section details summary::after{
+    content: '+';
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
+    font-size: 40px;
+    color: #fff;
+    transition: 0.3s linear;
+}
+.info-drop section details[open] summary::after{
+    transform: rotate(135deg);
+}
+.info-drop section details[open] summary{
+    background: #036fc7;
+}
+
+.info-header {
+    position: relative;
+}
+  
+.info-main-header{
+    width: 100%;
+    height: 300px;
+    filter: blur(2px);
+    position: relative;
+    background-image: url("../images/HomeCOVID.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.info-title{
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+
+}
+.info-img, .info-img1{
+    top: 10px;
+    position: relative;
+    width: calc(250px + 1.5vw);
+    padding: 20px;
+    justify-content: center;
+}
+.info-img1{
+    top: 150px;
+}
+.info-img2 {
+    position: relative;
+    width: calc(250px + 1.5vw);
+    padding: 20px;
+    justify-content: center;
+}
+
+.reference-proper{
+    position: relative;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.reference-proper .reference{
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 30px;
+    font-size: calc(15px + 0.26vw);
+}
+.reference a {
+    text-decoration: underline;
+}
+
+details li{
+    font-size: 40px;
+    padding: 5px;
+    margin: 10px;
+}
+
